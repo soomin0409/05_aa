@@ -9,11 +9,11 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&input);
 	if(input>0)
 	{
-	 printf("양수입니다");
+	 printf("positive\n");
 	}
-	if(input<0||input==0);
+	if(input<0||input==0)
 	{
-		printf("양수아닙니다");
+		printf("non-positive\n");
 	}
 	return 0;
 }
