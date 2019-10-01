@@ -5,15 +5,17 @@
 
 int main(int argc, char *argv[]) {
 	int input;
-	printf("intput a number : ");
+	printf("input : ");
 	scanf("%d",&input);
 	if(input>0)
 	{
-	 printf("|x|:%d\n",input);
+		printf("positive");
 	}
-	if(input<0||input==0)
+	else if(input<0)
 	{
-		printf("|x|:%d\n",-input);
+		printf("negative");
 	}
+	else
+	printf("0");
 	return 0;
 }
