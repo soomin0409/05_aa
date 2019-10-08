@@ -4,10 +4,14 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int i;
-	for(i=0;i<10;i++)
+	int i=0;
+	char c;
+	printf("input a string: ");
+	while((c=getchar())!='\n')
 	{
-		printf("Hello, world!\n");
-	}
+		i++;
+		}
+	printf("the number of digits is %d",i);
+			
 	return 0;
 }
