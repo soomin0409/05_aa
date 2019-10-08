@@ -8,9 +8,11 @@ int main(int argc, char *argv[]) {
 	char c;
 	printf("input a string: ");
 	while((c=getchar())!='\n')
-	{
+	{  if(c<='9'&& c>='0')
+		{
 		i++;
 		}
+	}
 	printf("the number of digits is %d",i);
 			
 	return 0;
