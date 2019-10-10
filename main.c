@@ -12,7 +12,8 @@ int main(int argc, char *argv[]) {
 	if(i<answer)
 	{printf("low\n");
 	}
-	else if(i>answer);
+	
+	else if(i>answer)
 	{
 		printf("high\n");
 	}
